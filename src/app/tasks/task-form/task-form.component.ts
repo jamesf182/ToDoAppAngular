@@ -11,7 +11,6 @@ import { TaskService } from '../shared/task.service';
 })
 export class TaskFormComponent implements OnInit {
   task: Task = new Task();
-  //task: Task | undefined;
   title: string = 'Nova tarefa';
 
   constructor(
